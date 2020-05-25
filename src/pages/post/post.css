@@ -47,40 +47,6 @@
 	padding: 3px 5px;
 }
 
-.post .content .code-block {
-	position: relative;
-	padding: 0;
-	overflow-x: auto;
-	border: 1px solid #ccc;
-	background: #f8f8f8;
-	word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-    tab-size: 4;
-}
-
-.post .content .code-block .hljs {
-	margin: 10px 20px;
-	padding: 0;
-	overflow: initial;
-}
-
-.post .content .code-block .lang-type {
-	position: absolute;
-	padding: 1px 5px;
-	z-index: 1;
-	right: 10px;
-	top: 0;
-	background: #fff;
-	font-size: 8px;
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
-
 .post .content .paragraph>code {
 	margin: 0 3px;
 	padding: 2px 5px;
@@ -94,9 +60,4 @@
 .post .content .m10 {
 	margin: 10px;
 	width: calc(100% - 10px * 2 - 10px);
-}
-
-.post .content .code-block code {
-	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    font-size: 1em;
 }
