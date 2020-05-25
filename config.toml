@@ -1,0 +1,14 @@
+[app]
+title = '秣锐软件'
+
+[manifest]
+name = '秣锐软件'
+short_name = '秣锐软件'
+start_url = '.'
+display = 'standalone'
+background_color = '#fff'
+description = '秣锐信息技术服务团队'
+[[manifest.icons]]
+src = '/image/icon.png'
+sizes = '149x149'
+type = 'image/png'
