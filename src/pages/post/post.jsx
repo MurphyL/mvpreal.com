@@ -107,9 +107,7 @@ function Post() {
     useEffect(() => {
         ajaxGet(`posts/${unique}.json`).then(res => {
             if(res.code === 0) {
-                const content = (res.payload || {}).markdown;
-                const result = parseFrontMatter(content || '');
-                return { code: 0, ...result.data, markdown: result.content };
+                return { code: 0, ...(res.payload || {}) };
             } else {
                 return { code: 1 }
             }
