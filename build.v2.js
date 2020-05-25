@@ -45,6 +45,8 @@ const manifest = async () => {
 	writeFile('public/manifest.json', JSON.stringify(manifest, null, '\t'), true);
 }
 
+const topItems = [];
+
 const blog = async () => {
 	const items = [];
 	(fs.readdirSync('blog') || []).filter((filename) => {
@@ -66,6 +68,14 @@ const blog = async () => {
 			...(parsed.data || {}),
 			summary: extractSummary(trimIfString(parsed.content) || '')
 		};
+		if(temp.top) {
+			topItems.push({
+				filename,
+				kind: 'blog',
+				title: temp.title,
+				cover: temp.cover,
+			});
+		}
 		// achive and hidden
 		if(!achive && !hidden) {
 			items.push(temp);
@@ -92,6 +102,14 @@ const docs = async () => {
 			...(parsed.data || {})
 		};
 		items.push(temp);
+		if(temp.top) {
+			topItems.push({
+				filename,
+				kind: 'document',
+				title: temp.title,
+				cover: temp.cover,
+			});
+		}
 		writeFile(`public/posts/${filename}.json`, JSON.stringify({
 			...temp, markdown: parsed.content || ''
 		}));
@@ -99,4 +117,11 @@ const docs = async () => {
 	writeFile('public/docs.json', JSON.stringify(items), true);
 }
 
-exports.default = series(clean, manifest, blog, docs);
+const genTopItems = async () => {
+	const items = topItems.filter(({title, cover}) => (title && cover));
+	writeFile('public/top.json', JSON.stringify(items), true);
+};
+
+const build = series(blog, docs, genTopItems);
+
+exports.default = series(clean, manifest, build);

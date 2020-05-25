@@ -39,17 +39,6 @@
 	list-style-type: none;
 }
 
-#root footer .sitemap .logo {
-	display: flex;
-	width: 150px;
-	align-items: center;
-}
-
-#root footer .sitemap .logo img {
-	width: 72px;
-	height: 72px;
-}
-
 #root footer .copyright {
 	text-align: center;
 	line-height: 3rem;

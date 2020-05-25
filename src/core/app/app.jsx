@@ -19,7 +19,7 @@ function Main() {
                         <Route path="/" exact={ true }>
                             { dynamic('home') }
                         </Route>
-                        <Route path="/blog">
+                        <Route path="/series">
                             { dynamic('blog') }
                         </Route>
                         <Route path="/docs">

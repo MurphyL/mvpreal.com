@@ -8,6 +8,17 @@
 	text-decoration: none;
 }
 
+#root header .logo {
+	display: flex;
+	align-items: center;
+}
+
+#root header .logo img {
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+}
+
 @media screen and (max-width: 600px) {
 
 	#root header {
@@ -20,6 +31,7 @@
 
 	#root header .logo {
 		line-height: 50px;
+		justify-content: center;
 	}
 
 	#root header ul.navi {
@@ -70,7 +82,7 @@
 	}
 
 	#root header .logo {
-		width: 100px;
+		width: 250px;
 	}
 
 	#root header ul.navi {

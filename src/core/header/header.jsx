@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import './header.css';
 
 const navItems = [{
-    url: '/post/awesome-windows.md',
-    label: '软件推荐'
+    url: '/post/awesome-kits.md',
+    label: '应用推荐'
 }, {
-    url: '/blog',
-    label: 'Blog'
+    url: '/series',
+    label: '专栏文章'
 }, {
     url: '/about',
     label: '关于'
@@ -21,9 +21,12 @@ function Header(props) {
     return (
         <header>
             <div className="container">
-                <div className="logo">
-                    <a href={ `/` }>{ process.env.REACT_APP_TITLE || '' }</a>
-                </div>
+                <a href={ `/` }>
+                    <div className="logo">
+                        <img src="/image/coffee_bean.png" alt="logo" />
+                        <span>{ process.env.REACT_APP_TITLE || '未命名站点' }</span>
+                    </div>
+                </a>
                 <ul className={ `navi ${show}` }>
                     { navItems && navItems.map((item, index) => (
                         <li key={ index }>
