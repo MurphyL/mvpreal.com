@@ -1,6 +1,6 @@
 ---
 id: awesome-windows
-title: Windows 应用列表
+title: Windows应用软件推荐
 ---
 
 ## 必备
@@ -12,9 +12,7 @@ title: Windows 应用列表
 ## 网络
 
 - 浏览器 - [Microsoft Edge](https://www.microsoft.com/zh-cn/edge)
-- 下载管理 - [IDM](http://internetdownloadmanager.com/)、[FDM](http://www.freedownloadmanager.org/)
-- Youtube下载 - [you-get](https://github.com/soimort/you-get/releases)、[youtube-dl](http://rg3.github.io/youtube-dl/download.html)
-- 音乐下载 - [music-dl]()
+- 下载管理 - [IDM](http://internetdownloadmanager.com/)、[FDM](http://www.freedownloadmanager.org/)、[XDM]()
 
 ## 生产工具
 

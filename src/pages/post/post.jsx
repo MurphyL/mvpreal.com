@@ -25,6 +25,21 @@ const Paragraph = ({ children }) => {
     );
 };
 
+const Prepare = ({ children }) => {
+    if(children && children.type === 'code') {
+        const langType = LANG_TYPES[children.props.className] || 'Text';
+        return (
+            <div className="code-block">
+                <pre>{ children }</pre>
+                <div className="lang-type">{ langType }</div>
+            </div>
+        )
+    }
+    return (
+        <div>TODO prepare block</div>
+    );
+};
+
 const markdownOptions = {
     overrides: {
         h1: {
@@ -44,6 +59,9 @@ const markdownOptions = {
         },
         h6: {
             component:  (props) => (<Title type='h6' { ...props } />)
+        },
+        p: {
+            component: Paragraph
         },
         pre: {
             component: Prepare
