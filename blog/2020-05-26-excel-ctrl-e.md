@@ -61,7 +61,7 @@ wechat: {
 
 ![参照样本提取](/image/assets/excel/ctrl-e-data-confuse.gif)
 
-咋样，够强大吧！
+咋样，够强大吧！不想试试么？
 
 ### 后记
 
