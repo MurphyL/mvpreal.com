@@ -2,10 +2,10 @@
 title: Excel中的万能快捷键 Ctrl+E
 author: murph
 top: true
-tags: [ Excel, 快捷键 ]
+tags: [ Excel, 快捷键, 微软 ]
 wechat: {
 	title: 'Excel中能打十个公式的快捷键【Ctrl+E】',
-	url: ''
+	url: 'https://mp.weixin.qq.com/s/mv4u0fjFzl8OD8ZmOif93g'
 }
 ---
 
