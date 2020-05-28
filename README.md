@@ -1,5 +1,11 @@
 # MVPeal
 
+
+## 资源收集
+
+- [SoBooks](https://sobooks.cc/)
+- [鸠摩搜索](https://www.jiumodiary.com/)
+
 ## 数据来源
 
 - [Tickcoupon Giveaway](https://giveaway.tickcoupon.com/)
