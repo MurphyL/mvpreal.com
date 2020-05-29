@@ -1,9 +1,9 @@
 ---
-title: 方方格子：功能无比强大的Excel工具箱
+title: 方方格子：功能强大的Excel工具箱
 author: murph
 tags: [ GTD, Microsoft, Wunderlist ]
 wechat: {
-	title: '方方格子：功能无比强大的Excel工具箱',
+	title: '方方格子：功能强大的Excel工具箱',
 	url: ''
 }
 ---
