@@ -25,6 +25,18 @@ const Paragraph = ({ children }) => {
     );
 };
 
+const FlexImage = ({ items, alt }) => {
+    return (
+        <div className="flex-wrapper">
+            { (JSON.parse(items) || []).map((item, index) => (
+                <div className="flex-item image" key={ index }>
+                    <img src={ item } alt={ alt || ''} />
+                </div>
+            )) }
+        </div>
+    );
+};
+
 const Prepare = ({ children }) => {
     return (
         <div className="prepare">{ children }</div>
@@ -70,6 +82,9 @@ const markdownOptions = {
                 cellPadding: 0,
             }
         },
+        FlexImage: {
+            component: FlexImage
+        }
     }
 };
 

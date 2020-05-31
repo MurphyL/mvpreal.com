@@ -21,6 +21,10 @@
 .post .content .image img {
 	max-width: 80%;
 	border: 1px solid rgba(240, 240, 240, 0.9);
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #aaaaaa;
 }
 
 .post .content blockquote {
@@ -61,4 +65,17 @@
 .post .content .m10 {
 	margin: 10px;
 	width: calc(100% - 10px * 2 - 10px);
+}
+
+.post .content .flex-wrapper {
+	display: flex;
+}
+
+.post .content .flex-wrapper>.flex-item {
+	flex: 1;
+	text-align: center;
+}
+
+.post .content .flex-wrapper>.flex-item>img {
+	width: 90%;
 }
