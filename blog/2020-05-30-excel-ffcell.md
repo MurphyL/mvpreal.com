@@ -22,7 +22,7 @@ wechat: {
 
 <FlexImage alt="聚光灯和指针工具" items={ [ "/image/assets/ffcell/ffcell-postion-1.gif", "/image/assets/ffcell/ffcell-postion-2.gif" ] } />
 
-一键删去多余空格，完美的弥补了`TRIM`函数无法处理文本中间的空格和缺憾。真个功能看似简单，但对于强迫正来说，不要太完美！
+一键删去多余空格，完美的弥补了`TRIM`函数无法处理文本中间的空格和缺憾。这个功能看似简单，但对于强迫症患者来说，不要太完美！
 
 ![方方格子 - 删除空格](/image/assets/ffcell/ffcell-trim-all.gif)
 
@@ -34,7 +34,7 @@ wechat: {
 
 ![方方格子 - 文本处理](/image/assets/ffcell/ffcell-extract-data.gif)
 
-一键提解析内行政区域信息，大家自己领会吧，小编真的非常喜欢。
+一键解析国内行政区域信息，大家自己领会吧，小编真的非常喜欢。
 
 ![方方格子 - 文本处理](/image/assets/ffcell/ffcell-extract-address.gif)
 
