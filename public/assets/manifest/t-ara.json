@@ -1,0 +1,133 @@
+{
+    "unique": "t-ara",
+    "label": "T-ara（티아라）",
+    "layout": "Group",
+    "kprofiles": "https://kprofiles.com/t-ara-members-profile/",
+    "members": [
+        {
+            "label": "李居丽",
+            "unique": "lee-qri",
+            "stage-name": "Qri (큐리)",
+            "birth-name": "Lee Ji Hyun (이지현)",
+            "chinese-name": "Lee Qri (李居丽)",
+            "position": "Leader, Sub-vocalist",
+            "birthday": "December 12, 1986",
+            "height": "163 cm (5’4″)",
+            "weight": "44 kg (97 lbs)",
+            "blood-type": "B",
+            "instagram": "qtfreet",
+            "twitter": "QriPretty",
+            "tik-tok": "qri_pretty",
+            "sub-unit": "T-ara QBS"
+        },
+        {
+            "label": "咸恩静",
+            "unique": "hahm-eun-jung",
+            "stage-name": "Eunjung (은정)",
+            "birth-name": "Hahm Eun Jung (함은정)",
+            "chinese-name": "Hahm Eun-jung (咸恩静)",
+            "position": "Main Vocalist, Lead Rapper",
+            "birthday": "December 12, 1988",
+            "zodiac-sign": "Sagittarius",
+            "height": "168 cm (5’6″)",
+            "weight": "48 kg (101 lbs)",
+            "blood-type": "O",
+            "twitter": "taraeunjung1212",
+            "instagram": "@eunjung.hahm",
+            "tik-tok": "eunjung1212",
+            "you-tube": "함은정 [Eunjung Official]",
+            "sub-unit": "T-ara N4"
+        },
+        {
+            "label": "朴孝敏",
+            "unique": "park-hyomin",
+            "stage-name": "Hyomin (효민)",
+            "birth-name": "Park Sun Young (박선영)",
+            "chinese-name": "Park Hyomin (朴孝敏)",
+            "position": "Main Rapper, Lead Vocalist, Lead Dancer",
+            "birthday": "May 30, 1989",
+            "zodiac-sign": "Gemini",
+            "height": "167 cm (5’6”)",
+            "weight": "48.4 kg (106 lbs)",
+            "blood-type": "O",
+            "instagram": "hyominnn",
+            "twitter": "b89530",
+            "tik-tok": "@hyominnn5",
+            "youtube": "효민TV",
+            "sub-unit": "T-ara N4"
+        },
+        {
+            "label": "朴智妍",
+            "unique": "park-ji-yeon",
+            "stage-name": "Jiyeon (지연)",
+            "birth-name": "Park Ji Yeon (박지연)",
+            "chinese-name": "Park Ji Yeon (朴智妍)",
+            "position": "Main Dancer, Lead Vocalist, Visual, Face of The Group, Maknae",
+            "birthday": "June 7, 1993",
+            "zodiac-sign": "Gemini",
+            "height": "165 cm (5’4”)",
+            "weight": "45 kg (99 lbs)",
+            "blood-type": "AB",
+            "twitter": "pjy1234",
+            "instagram": "jiyeon2__",
+            "tik-tok": "@jiyeon2__",
+            "youtube": "JIYEON official / 지연 JIYEON",
+            "sub-unit": "T-ara N4"
+        },
+        {
+            "label": "朴素妍",
+            "unique": "park-so-seon",
+            "stage-name": "Soyeon (소연)",
+            "birth-name": "Park In Jung (박인정), she legally changed her name to Park So Yeon (박소연) in 2005",
+            "chinese-name": "Park So Yeon (朴素妍)",
+            "position": "Main Vocalist",
+            "birthday": "October 5, 1987",
+            "zodiac-sign": "Libra",
+            "height": "163 cm (5’4″)",
+            "blood-type": "B",
+            "twitter": "@sohotmelody",
+            "instagram": "@melodysoyani",
+            "sub-unit": "T-ara QBS"
+        },
+        {
+            "label": "全宝蓝",
+            "unique": "jeon-bo-ram",
+            "stage-name": "Boram (보람)",
+            "birth-name": "Jeon Bo Ram (전보람)",
+            "chinese-name": "Jeon Bo Ram (全宝蓝)",
+            "position": "Sub-vocalist",
+            "birthday": "March 22, 1986",
+            "zodiac-sign": "Aries",
+            "height": "155 cm (5’1″)",
+            "weight": "45 kg (99 lbs)",
+            "blood-type": "B",
+            "twitter": "BoRam_0322",
+            "instagram": "bo_ram_0322",
+            "sub-unit": "T-ara QBS"
+        },
+        {
+            "label": "李智雅"
+        },
+        {
+            "label": "杨智媛"
+        },
+        {
+            "label": "柳和荣"
+        },
+        {
+            "label": "李雅琳"
+        }
+    ],
+    "sub-units": [
+        {
+            "label": "T-ara QBS"
+        },
+        {
+            "label": "T-ara N4"
+        }
+    ],
+    "works": [
+        {}
+    ],
+    "events": []
+}

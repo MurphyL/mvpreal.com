@@ -1,0 +1,21 @@
+
+.layout_group .group_content {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.layout_group .group_content .member_group {
+    margin: 0;
+    padding: 0;
+}
+
+.layout_group .group_content .member_group .member_item {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    width: 240px;
+}
+
+.layout_group .group_content .member_group .member_item .photo {
+    width: 30px;
+}

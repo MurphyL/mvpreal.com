@@ -27,13 +27,14 @@
 
 .header .navi {
     flex: 1;
+    margin-right: 10px;
     display: flex;
+    gap: 10px;
     justify-content: flex-end;
 }
 
 .header .navi a {
-    margin: 0 10px;
-    min-width: 3rem;
+    padding: 0 10px;
 }
 
 .header .navi a.active {
@@ -42,8 +43,8 @@
 
 .header .navi a.active::before {
     position: absolute;
-    top: 50%;
-    left: 0px;
+    top: 20px;
+    left: 0;
     display: inline-block;
     content: '';
     width: 5px;

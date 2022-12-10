@@ -1,0 +1,7 @@
+.root .part textarea {
+    padding: 5px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 20rem;
+    outline: none;
+}

@@ -1,24 +1,44 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import 'normalize.css';
-
-const SiteLayout = React.lazy(() => import("/src/plug/layout/site-layout/site-layout.module")) ;
-const SiteHome = React.lazy(() => import("/src/view/site-home/site-home.v1.module"));
-
 import './app.css';
 
-const layouts = {
-    site: SiteLayout
-};
 
-const router = createBrowserRouter([
+const SiteLayout = React.lazy(() => import("/src/plug/layout/site-layout/site-layout.stage"));
+
+const SiteHome = React.lazy(() => import("/src/view/site-home/site-home.v1.module"));
+
+import StarProfileRoot, { StarProfileList, StarProfileItem } from "../view/star-profile/star-profile.module";
+
+import KpopProfilesParser from "../view/parsers/kprofiles-parser.module";
+
+const router = createHashRouter([
     {
-        element: React.createElement(layouts.site, {}),
+        element: <SiteLayout />,
         children: [{
             path: "/", element: (<SiteHome />)
         }, {
+            path: "/stars/", 
+            element: <StarProfileRoot />,
+            children: [{
+                index: true,
+                element: (<StarProfileList />),
+                errorElement: (<div>加载明星数据出错</div>)
+            }, {
+                path: ':unique',
+                element: (<StarProfileItem />),
+                errorElement: (<div>加载明星数据出错</div>)
+            }]
+        }, {
+        }, {
             path: "/about", element: (<div>About</div>)
+        }, {
+            path: '/parsers/',
+            children: [{
+                path: 'kprofilesdotcom',
+                element: (<KpopProfilesParser />)
+            }]
         }, {
             path: "*", element: (<div>404</div>)
         }]
