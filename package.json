@@ -9,7 +9,7 @@
         "images": "node .scripts/rename-assets.mjs"
     },
     "dependencies": {
-        "axios": "^1.1.2",
+        "axios": "^1.6.0",
         "gray-matter": "^4.0.3",
         "lodash": "^4.17.21",
         "normalize.css": "^8.0.1",
